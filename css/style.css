@@ -92,6 +92,12 @@ margin-right: 20px;
 .header__drop-down.drop-down{
   margin-left: 39px;
 }
+.header__drop-down.drop-down + .header__drop-down.drop-down{
+  margin-left: 12px;
+}
+.header__drop-down.drop-down + .header__link-blog{
+  margin-left: 20px;
+}
 .header__drop-down > a{
   position: relative;
   padding-left: 11px;
