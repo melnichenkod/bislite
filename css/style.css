@@ -25,6 +25,7 @@ li{
 }
 .header{
   background-color: #e8ebf1;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.07);
 }
 .header__inner{
   height: 120px;
@@ -135,3 +136,7 @@ margin-right: 20px;
   background-color: #fff;
   transition: all .3s;
 }
+/* Slider */
+
+
+
