@@ -61,8 +61,6 @@ margin-right: 20px;
   position: relative;
 }
 .drop-down__list{
-  display: none;
-  box-sizing: ;
   position: absolute;
   width: 200px;
   background-color: #fff;
@@ -71,6 +69,10 @@ margin-right: 20px;
   border-top: none;
   box-shadow: 0px 5px 0px 0px rgba(42, 172, 200, 0.004);
   padding: 10px 5px;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  
 }
 .drop-down__list a{
   padding: 12px 0 12px 11px;
@@ -122,7 +124,10 @@ margin-right: 20px;
 } */
 
 .header__drop-down.drop-down:hover .drop-down__list{
-  display: block;
+  height: auto;
+  overflow: visible;
+  opacity: 1;
+  transition: all .5s;
 }
 .header__drop-down.drop-down:hover > a{
   color: #2aacc8;
