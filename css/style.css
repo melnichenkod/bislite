@@ -4,6 +4,9 @@ html{
 *, *::before, *::after{
   box-sizing: inherit;
 }
+body{
+  font-family: 'Lato', sans-serif;
+}
 a{
   color: #000;
   display: inline-block;
@@ -36,7 +39,6 @@ li{
 .header__logo a{
   color: #2aacc8;
   font-size: 50px;
-  font-family: 'Lato', sans-serif;
   font-weight: 400;
 }
 .header__logo a span{
@@ -137,6 +139,24 @@ margin-right: 20px;
   transition: all .3s;
 }
 /* Slider */
-
+.slider{
+  background-color: #2aacc8;
+  padding: 20px 0 40px;
+}
+.slider__item{
+  background-image: url(../img/slider_item.jpg);
+  min-height: 440px;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slider__item-title{
+  color: #fff;
+  font-size: 50px;
+  width: 300px;
+  padding-left: 60px;
+  padding-top: 90px;
+  font-weight: 700;
+}
 
 
